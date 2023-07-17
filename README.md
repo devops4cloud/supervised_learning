@@ -2,7 +2,14 @@ Supervised Machine Learning - Loan Analysis
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
+Supervized learning is machine learning algorithm which makes estimates and predictions by learning and emulating data that was fed to the system in the form of training data.
+
+Credit worthiness of an individual can be based on different factors like income, currently outstanding debt amount, debt to income ratio, previously derogatory remarks, etc. 
+Overall, all these different variables and chances of a person defaulting on their payments.
+
+In this, program we attempt to create a supervized learning where we use different variables to estimate credit worthiness. We also explore confusion matrix and classification metrics to check the efficiency of the model that we made.
+
+The program also samples different numbers of classes in attempt to remove biases.
 
 * Explain the purpose of the analysis.
 * Explain what financial information the data was on, and what you needed to predict.
@@ -21,6 +28,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 * Machine Learning Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.
+
 
 ## Summary
 
