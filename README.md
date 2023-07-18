@@ -7,12 +7,12 @@ Supervized learning is machine learning algorithm which makes estimates and pred
 Credit worthiness of an individual can be based on different factors like income, currently outstanding debt amount, debt to income ratio, previously derogatory remarks, etc. 
 Overall, all these different variables and chances of a person defaulting on their payments.
 
-In this, program we attempt to create a supervized learning where we use different variables to estimate credit worthiness. We also explore confusion matrix and classification metrics to check the efficiency of the model that we made.
+In this, program we attempt to create a supervized learning where we use different variables to assess the healthiness of the loan. We also explore confusion matrix and classification metrics to check the efficiency of the model that we made.
 
-###Purpose
+### Purpose
 The program uses historic set of data available about the borrowers and loan status. Based on this data, the machine learning algorithm is used to train and test the acccuracy and precision of the predictions. The model splits the data into training and testing sets.
 
-###Data Used for the Analysis
+### Data Used for the Analysis
 Data availabe for this analaysis is included in the Resources folder (lending_data.csv). Available data features and labels are as follows.
  - Size of the loan in $
  - Interest Rate of the loan
@@ -58,4 +58,4 @@ Data availabe for this analaysis is included in the Resources folder (lending_da
 
 ## Summary
 
-The models evaluated provide a good accurate possibilities of predicting future loan health. It was important to re-balance the data to get this level of accuracy and precision in predicting the outcome of the loans.
+The models evaluated provide a good accurate possibilities of predicting future loan health. It was important to re-balance the data to get this level of accuracy and precision in predicting the outcome of the loans. In conclusion, the re-balanced model seems to be a better predictor of the healthiness of a loan.
