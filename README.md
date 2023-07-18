@@ -40,18 +40,22 @@ Data availabe for this analaysis is included in the Resources folder (lending_da
 ## Results
 
 * Machine Learning Model 1: Logistic Regression with imbalanced data
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
-
-
+ * Accuracy Score <br>
+    <img title="Imbalanced Accuracy Score" alt="Alt text" src="/images/imbalanced_accuracy.png"> <br>
+ * Confusion Matrix  <br>
+    <img title="Confusion Matrix" alt="Alt text" src="/images/imbalanced_confusion.png"> <br>
+ * Classification Report  <br>
+    <img title="Classfification Report" alt="Alt text" src="/images/imbalanced_classification.png"> <br>
 
 * Machine Learning Model 2: Logistic Regression with balanced data 
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+ * Accuracy Score <br>
+    <img title="Accuracy Score" alt="Alt text" src="/images/balanced_accuracy.png"> <br>
+ * Confusion Matrix  <br>
+    <img title="Confusion Matrix" alt="Alt text" src="/images/balanced_confusionmatrix.png"> <br>
+ * Classification Report  <br>
+    <img title="Classfification Report" alt="Alt text" src="/images/balanced_classification.png"> <br>
 
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
+The models evaluated provide a good accurate possibilities of predicting future loan health. It was important to re-balance the data to get this level of accuracy and precision in predicting the outcome of the loans.
