@@ -9,24 +9,42 @@ Overall, all these different variables and chances of a person defaulting on the
 
 In this, program we attempt to create a supervized learning where we use different variables to estimate credit worthiness. We also explore confusion matrix and classification metrics to check the efficiency of the model that we made.
 
-The program also samples different numbers of classes in attempt to remove biases.
+###Purpose
+The program uses historic set of data available about the borrowers and loan status. Based on this data, the machine learning algorithm is used to train and test the acccuracy and precision of the predictions. The model splits the data into training and testing sets.
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+###Data Used for the Analysis
+Data availabe for this analaysis is included in the Resources folder (lending_data.csv). Available data features and labels are as follows.
+ - Size of the loan in $
+ - Interest Rate of the loan
+ - Borrowers income
+ - Debt to income ratio of the borrower
+ - Number of accounts for the borrower
+ - Any negative remarks about the borrower
+ - Total debt of the borrower
+ - Healthiness of the loan (label)
+
+### Data Balancing
+- There were close to 77k records of data which can be used for the analysis
+- Evaluating the data available, there was an imbalance of data between healthy (75k) and unhealthy loans(2.5k).
+
+
+### Steps for Analysis
+
+* Imported the data from the CSV
+* Seperated the data into labels and features
+* Split the data into training and testing
+* Analysed the data using Logistic Regression model
+* Measured the outcome using the accuracy, confusion matrix and classification report
+* Balanced the data using Random Oversampler and re-ran the analysis
 
 ## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
-
-* Machine Learning Model 1:
+* Machine Learning Model 1: Logistic Regression with imbalanced data
   * Description of Model 1 Accuracy, Precision, and Recall scores.
 
 
 
-* Machine Learning Model 2:
+* Machine Learning Model 2: Logistic Regression with balanced data 
   * Description of Model 2 Accuracy, Precision, and Recall scores.
 
 
